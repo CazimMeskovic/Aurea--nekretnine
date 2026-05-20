@@ -7,34 +7,31 @@ import type { Metadata } from 'next';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Košenje i održavanje zelenih površina Pecanin Gradiška',
-  description:
-    'Brzo, pouzdano i kvalitetno održavanje dvorišta, parkova i poslovnih prostora. Kontaktirajte nas za ponudu!',
+  title: 'Premium nekretnine i luksuzni stanovi | AUTRA Nekretnine',
+  description: 'Profesionalna prezentacija, prodaja i najam stanova, kuća, vila i poslovnih prostora. Diskretan, siguran i elegantan pristup za privatne i poslovne klijente.',
 
   openGraph: {
     type: 'website',
     locale: 'bs_BA',
-    url: 'https://kosenjepecanin.com/',
-    siteName: 'Košenje i održavanje zelenih površina Pecanin',
-    title: 'Košenje i održavanje zelenih površina Pecanin Gradiška',
-    description:
-      'Brzo, pouzdano i kvalitetno održavanje dvorišta, parkova i poslovnih prostora.',
+    url: 'https://autra-nekretnine.ba/', // Zamijeni sa stvarnom domenom ako bude drugačija
+    siteName: 'AUTRA Nekretnine',
+    title: 'Premium nekretnine i luksuzni stanovi | AUTRA Nekretnine',
+    description: 'Profesionalna prezentacija, prodaja i najam stanova, kuća, vila i poslovnih prostora u BiH.',
     images: [
       {
-        url: '/trlog.png',
+        url: '/og-image.png', // Tvoja OpenGraph slika u public mapi (npr. logo ili slika vile)
         width: 1200,
         height: 630,
-        alt: 'Košenje i održavanje zelenih površina Pecanin',
+        alt: 'AUTRA Premium Nekretnine',
       },
     ],
   },
 
   twitter: {
     card: 'summary_large_image',
-    title: 'Košenje i održavanje zelenih površina Pecanin Gradiška',
-    description:
-      'Brzo, pouzdano i kvalitetno održavanje dvorišta, parkova i poslovnih prostora.',
-    images: ['/trlog.png'],
+    title: 'Premium nekretnine i luksuzni stanovi | AUTRA Nekretnine',
+    description: 'Profesionalna prezentacija, prodaja i najam stanova, kuća, vila i poslovnih prostora.',
+    images: ['/og-image.png'],
   },
 };
 

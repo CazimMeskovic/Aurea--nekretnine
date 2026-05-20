@@ -19,7 +19,7 @@ export default function Hero() {
 
       {/* Sadržaj (Zadržava grid/layout stabilnim na svim ekranima) */}
       <div className="relative z-20 container mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-24 max-w-7xl w-full">
-        <div className="max-w-xl lg:max-w-2xl flex flex-col gap-6 md:gap-8">
+        <div className="max-w-xl lg:max-w-3xl flex flex-col gap-6 md:gap-8">
           
           {/* Nadnaslov */}
           <div className="flex items-center gap-3">
@@ -30,7 +30,7 @@ export default function Hero() {
           </div>
 
           {/* Glavni Naslov */}
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-serif text-white leading-tight font-light">
+          <h1 className="text-4xl sm:text-5xl lg:text-8xl font-serif text-white leading-tight font-light">
             Domovi koji ostavljaju{' '}
             <span className="text-[#c5a46e] italic block sm:inline font-normal">
               utisak.
@@ -38,7 +38,7 @@ export default function Hero() {
           </h1>
 
           {/* Opisni Tekst */}
-          <p className="text-gray-300 text-sm sm:text-base leading-relaxed max-w-xl font-light">
+          <p className="text-gray-300 text-sm sm:text-2xl leading-relaxed max-w-2xl font-light">
             Elegantna prezentacija stanova, kuća, vila, poslovnih prostora i
             zemljišta. Ovdje kasnije možeš ubaciti svoje slike, logo, cijene, kontakte
             i stvarne ponude.
